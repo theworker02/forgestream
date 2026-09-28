@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/forgestream",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forge encode/decode helpers for stream payloads in pipelines.",
+  "bin": {
+    "forgestream": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/forgestream.git"
+  },
+  "homepage": "https://theworker02.github.io/forgestream/",
+  "keywords": [
+    "forge",
+    "stream",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
